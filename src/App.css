@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,67 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  background-color: rgb(34, 0, 88);
+
+}
+
+.App{
+  background-color: rgb(148, 8, 148);
+  min-height : 600px;
+  width: 450px;
+  margin-top:60px;
+  margin-left: 450px ;
+  border-radius: 15px;
+  box-shadow: 4px 4px 11px 8px #000000;
+
+}
+
+#to-do-form input{
+  background-color: #1d00ff;
+  height: 50px;
+  width:200px;
+  border: 3px solid; 
+  font-family: monospace;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  padding: 0 20px;  
+  margin: 20px; 
+  border-radius: 10px;
+
+}
+
+#to-do-form input::placeholder{
+  color: #e0dee9;
+  
+
+}
+#to-do-form >button{
+  height: 50px;
+  width:80px;
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  cursor:pointer;
+
+}
+
+.textHead{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  padding-top: 30px;
+  transition: 1s;
+  filter: drop-shadow(1px 5px 2px #1d00ff);
+
+  
+
+}
+.textHead:hover{
+  color:orange;
+  letter-spacing:2px;
+ 
+  
 }
