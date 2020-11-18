@@ -1,0 +1,28 @@
+.list{
+    font-family: 'Shadows Into Light', cursive;
+    color:#1a1a1f;
+    filter: drop-shadow(0.5px 5px 6px #1d00ff);
+    padding: left 30px;
+    font-size: 18px;
+    width:300px;
+    background-color:orange;
+    height:50px;
+    margin: 20px auto;
+    margin-right:130px;
+    border-radius: 3px;
+}
+
+.list p {
+    padding:10px;
+    position: relative;
+}
+.list p span {
+   position: absolute;
+   right: 15px;
+   cursor:pointer;
+}
+
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
+}
