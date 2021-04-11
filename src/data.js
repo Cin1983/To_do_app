@@ -1,4 +1,4 @@
-[
+export const vacationDates = [
     {
     "date": "1-1-2020",
     "name": "NewYearsEve"
